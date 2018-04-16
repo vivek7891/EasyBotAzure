@@ -32,7 +32,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
                     promptStyle: PromptStyle.Auto);
             }
             
-             if else (message.Text == "Hello")
+            else if (message.Text == "Hello")
             {
                 PromptDialog.Confirm(
                     context,

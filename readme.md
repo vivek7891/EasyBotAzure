@@ -33,4 +33,4 @@ If you have setup continuous integration, then your bot will automatically deplo
 
 "# EasyBotAzure" 
 
-"Version 1 - EasyBotAzure"
+"Version 2: EasyBotAzure"
