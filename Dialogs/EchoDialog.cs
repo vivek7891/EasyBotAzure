@@ -34,12 +34,8 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
             
             else if (message.Text == "Hello")
             {
-                PromptDialog.Confirm(
-                    context,
-                    AfterResetAsync,
-                    "Are you sure you want to reset the count?",
-                    "Didn't get that!",
-                    promptStyle: PromptStyle.Auto);
+                await context.PostAsync("Hey, I am good and how are you Vivek?");
+                context.Wait(MessageReceivedAsync);
             }
             
             else
